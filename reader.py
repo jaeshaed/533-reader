@@ -1,4 +1,4 @@
-f = open("C:/Users/Студент/533-reader/file.name", mode = "r")
+def kobyakov:
+f = open("C:/Users/Студент/Desktop/reader igor/ss.txt", mode = "r",encoding="utf-8")
 content = f.read()
-print(content)
 f.close()

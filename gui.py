@@ -32,7 +32,7 @@ books = [
 class BookGrid(GridLayout):
     def __init__(self, **kwargs):
         super(BookGrid, self).__init__(**kwargs)
-        self.cols = 2
+        self.cols = 3
         self.spacing = 10
         self.padding = 10
         self.size_hint_y = None

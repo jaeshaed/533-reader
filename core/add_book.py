@@ -7,4 +7,4 @@ def add_book(book_name, book_text):
         
 book_title = input("Введите название книги:")
 book_content = input("Введите текст книги:")
-(add_book(book_title, book_content))
+add_book(book_title, book_content)

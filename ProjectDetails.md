@@ -58,7 +58,7 @@
 
 *О размерах страницы: [get_page_height()](#get_page_height), [get_page_width()](#get_page_width)*
 
-### get_book_setting(book_name)
+### get_book_settings(book_name)
 
 Возвращает настройки для книжки.
 

@@ -2,10 +2,10 @@ import os
 
 
 directory = "Книги"
-name = input("введите книгу: ")
+spisok = []
 def list_books(filter = None):
     for filename in os.listdir("Книги"):
         filename_with_path = os.path.join("Книги", filename)
         if os.path.isdir(filename_with_path):
-            if name in filename_with_path:
-                print(filename_with_path)
+            if filter in filename_with_path:
+                spisok.append(filename_with_path)

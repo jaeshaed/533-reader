@@ -1,0 +1,9 @@
+import os
+
+def get_book_cover(book_name):
+    cover_path = os.path.join("Книги", book_name, "обложка.jpg")
+    default_cover_path = "любая_обложка.jpg"
+    if os.path.exists(cover_path):
+        return cover_path
+    else:
+        return default_cover_path       

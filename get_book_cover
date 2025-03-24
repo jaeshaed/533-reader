@@ -1,0 +1,9 @@
+импорт операционной системы
+
+определение get_book_cover(имя_книги):
+ cover_path = os.path.join("Книги", название_книги, "обложка.jpg")
+ default_cover_path = «любая_обложка.jpg»
+ если os.path.существует(cover_path):
+ возвращает cover_path
+ ещё:
+ возвращает default_cover_path 
